@@ -32,6 +32,13 @@ public class Employee
 		empAge=age;
 		empLocation=location;
 	}
+	Employee(String name,String experience,int age,int id)
+	{
+		empName=name;
+		empId=id;
+		empAge=age;
+		empLocation=experience;
+	}
 	Employee(String name,int id,int age,int experience)
 	{
 		empName=name;
