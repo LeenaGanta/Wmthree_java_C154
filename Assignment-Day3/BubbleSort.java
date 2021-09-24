@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class BubbleSort
 {
-   static void bubbleSort(int arr[],int n)
+   void bubbleSort(int arr[],int n)
    {
 	   int i,j,temp;
 	   boolean swapped=false;
@@ -31,29 +31,12 @@ public class BubbleSort
 			   break;
 	   }   
    }
-   static void display(int arr[],int n)
+   void display(int arr[],int n)
    {
 	   for(int i=0;i<arr.length;i++)
 	    System.out.print(arr[i]+" ");
    }
-   public static void main(String[] args)
-   {
-	  Scanner sc=new Scanner(System.in);
-	  System.out.println("Enter no. of elements:");
-	  int n=sc.nextInt();
-	  int []arr=new int[n];
-	  for(int i=0;i<n;i++)
-	  {
-		  System.out.println("Enter number:");
-		  arr[i]=sc.nextInt();
-	  }
-	 // int arr[]= {12,43,2,1,4};
-	  //int n=arr.length;
-	  bubbleSort(arr,n);
-	  System.out.println("Sorted elements are:");
-	  display(arr,n);  
-	   
-}
+   
 }
 
 
