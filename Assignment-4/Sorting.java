@@ -15,7 +15,7 @@ public class Sorting {
 			  arr[i]=sc.nextInt();
 		  }
 		
-		  
+		/*  
 		  BubbleSort bubble=new BubbleSort();
 		  bubble.bubbleSort(arr,n);
 		  System.out.print("Sorted elements using Bubble Sort are:");
@@ -31,14 +31,20 @@ public class Sorting {
 		
 		  InsertionSort insertSort=new InsertionSort();
 		  insertSort.insertionSort(arr, n);
-		  System.out.print("Sorted elements using Inserion Sort are:");
+		  System.out.print("Sorted elements using Insertion Sort are:");
 		  insertSort.display(arr, n);
 		 
 		  
 		  MergeSort merSort=new MergeSort();
 		  merSort.mergeSort(arr, 0, n-1);
-		  System.out.print("Sorted elements using Inserion Sort are:");
+		  System.out.print("Sorted elements using Merge Sort are:");
 		  merSort.display(arr);
+		  
+		  */
+		  RadixSort radSort=new RadixSort();
+		  radSort.radixSort(arr, n);
+		  System.out.println("Sorted elements using Radix Sort are");
+		  radSort.display(arr, n);
 		  
 		  
 	}
