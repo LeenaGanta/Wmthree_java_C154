@@ -1,7 +1,9 @@
 package sorts;
 
 /*
- * Time complexity=O((n+b) * log(k))
+ * Time complexity=O(d*(n+b))
+ * Auxiliary Space=O(n+b)
+ *
  */
 import java.util.Arrays;
 
