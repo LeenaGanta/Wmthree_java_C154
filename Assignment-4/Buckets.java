@@ -9,11 +9,12 @@ public class Buckets
 		  Scanner sc=new Scanner(System.in);
 		  System.out.println("Enter no. of elements:");
 		  int n=sc.nextInt();
-		  int []arr=new int[n];
+		  //int []arr=new int[n];
+		  float []arr=new float[n];
 		  for(int i=0;i<n;i++)
 		  {
 			  System.out.println("Enter number:");
-			  arr[i]=sc.nextInt();
+			  arr[i]=sc.nextFloat();
 		  }
 		 System.out.println("Enter num of buckets");
 		 int nBuckets=sc.nextInt();
