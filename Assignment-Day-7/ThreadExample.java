@@ -28,9 +28,9 @@ class ThreadClass extends Thread
 }
 public class ThreadExample
 {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException 
+	{
 		ThreadClass thread1=new ThreadClass();
-		
 		ThreadClass thread2=new ThreadClass();
 		ThreadClass thread3=new ThreadClass();
 		ThreadClass thread4=new ThreadClass();
@@ -38,7 +38,6 @@ public class ThreadExample
 		thread1.start();
 		thread2.start();
 		thread3.start();
-		
 		thread4.start();
 		
 	}
