@@ -5,7 +5,6 @@ public class Stack
 {
 	Node head;
 	static int top=-1;
-	//static int size=10;
 	class Node
 	{
 		Employee data;
